@@ -10,41 +10,40 @@
 }
 
 body {
-  background-color: #E5E5E5;;
+  background-color: #e5e5e5;
   min-height: 100vh;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.6;
   display: grid;
   align-items: center;
   justify-content: center;
   text-align: center;
   margin: 2rem auto;
   overflow: hidden;
-  
 }
 
 .container {
-  background-color: #1B244A;
+  background-color: #1b244a;
   max-width: 800px;
-  padding: 5rem 12rem; 
+  padding: 5rem 12rem;
 }
 
 .board-title {
-  font-family: 'Verdana';
+  font-family: "Verdana";
   font-style: normal;
   font-weight: 700;
   font-size: 3rem;
   line-height: 36px;
-  color: #EEEEEE;
+  color: #eeeeee;
   text-transform: uppercase;
   margin-top: 2rem;
 }
 
 button {
-  border: 2px solid #9AABD8;
+  border: 2px solid #9aabd8;
   border-radius: 5px;
   padding: 1rem;
-  color: #9AABD8;
+  color: #9aabd8;
   background-color: transparent;
   font-size: 1.5rem;
   line-height: 28px;
@@ -56,8 +55,6 @@ button:hover {
   background-color: #9aabd85a;
 }
 
-
-
 .add-pts-btns {
   display: flex;
   justify-content: center;
@@ -68,15 +65,13 @@ button:hover {
   justify-content: center;
 }
 
-.home-pts, .guest-pts {
+.home-pts,
+.guest-pts {
   background-color: #080001;
   border-radius: 5px;
   padding: 0.7rem 4rem;
-  color: #F94F6D;
+  color: #f94f6d;
   font-size: 6rem;
   font-family: CursedTimer;
   margin: 2rem 4rem;
 }
-
-
-
